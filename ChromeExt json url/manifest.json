@@ -1,0 +1,14 @@
+{
+   "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+   },
+   "description": "This extension will store the urls of all the tabs opened in the current window in a file. And it is possible to load it back",
+   //"key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsPgvOpSl1hmjU+RRlv03okJOdnMdCxCpo6apIEMScdfRaC8OKUpBJ1Xsp2d2ZpKCcHbeRWhnYHlIv8h2QwpHNdUYr7gvlTSqbsd7Tf34TNvLQMQdp/+rw8FKZs5QCZQEB+YSo6zrC2j1ubzLoKxlaYeACtxv40cwy47HRwxFfyNe+PyQ6erpNR8p6jYRNaIYxHmKzKccrXUiN2Fet+Q/cq8Ba0U1edTke6JGqt7V8EWUswNTuv1Qqp5Wpvd+vrxW+VcFRXFMJKbxriQdAbZAi8Tf/Z8u+5AGW0nm5p2cqF3J9MkYBTYwhxIStFq4xIpiLHyISqGuuhqBwXinfsfdMQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "23",
+   "name": "tabStore Plugin",
+   "permissions": [ "activeTab", "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0"
+}
